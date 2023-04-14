@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.development.unique_snakegame"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\4a8250a46dd59dcaea60d1b0564815f1\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.development.unique_snakegame.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\4a8250a46dd59dcaea60d1b0564815f1\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\4a8250a46dd59dcaea60d1b0564815f1\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.development.unique_snakegame.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\4a8250a46dd59dcaea60d1b0564815f1\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\4a8250a46dd59dcaea60d1b0564815f1\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:5:5-26:19
+18        android:allowBackup="true"
+18-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\4a8250a46dd59dcaea60d1b0564815f1\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.SnakeGame" >
+28-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:12:9-47
+29        <activity
+29-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:14:9-25:20
+30            android:name="com.development.unique_snakegame.MainActivity"
+30-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:15:13-41
+31            android:exported="true"
+31-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:16:13-36
+32            android:label="@string/app_name"
+32-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:17:13-45
+33            android:screenOrientation="portrait"
+33-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:19:13-49
+34            android:theme="@style/Theme.SnakeGame" >
+34-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:18:13-51
+35            <intent-filter>
+35-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:20:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:21:17-69
+36-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:23:17-77
+38-->E:\Android\Projects\Work\SnakeGame\app\src\main\AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[androidx.compose.ui:ui-tooling:1.3.2] C:\Users\user\.gradle\caches\transforms-3\8716ab0eb3ed620adb9395451d16d4d9\transformed\ui-tooling-1.3.2\AndroidManifest.xml:23:9-25:39
+42            android:name="androidx.compose.ui.tooling.PreviewActivity"
+42-->[androidx.compose.ui:ui-tooling:1.3.2] C:\Users\user\.gradle\caches\transforms-3\8716ab0eb3ed620adb9395451d16d4d9\transformed\ui-tooling-1.3.2\AndroidManifest.xml:24:13-71
+43            android:exported="true" />
+43-->[androidx.compose.ui:ui-tooling:1.3.2] C:\Users\user\.gradle\caches\transforms-3\8716ab0eb3ed620adb9395451d16d4d9\transformed\ui-tooling-1.3.2\AndroidManifest.xml:25:13-36
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\c7c2463a13d89fa3493241dd2b406ee6\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\c7c2463a13d89fa3493241dd2b406ee6\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+47            android:authorities="com.development.unique_snakegame.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\c7c2463a13d89fa3493241dd2b406ee6\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\c7c2463a13d89fa3493241dd2b406ee6\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\c7c2463a13d89fa3493241dd2b406ee6\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\c7c2463a13d89fa3493241dd2b406ee6\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\c7c2463a13d89fa3493241dd2b406ee6\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\3e532944d4dbab54d52a5075cf86dd09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\3e532944d4dbab54d52a5075cf86dd09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\3e532944d4dbab54d52a5075cf86dd09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+56                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+56-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+57                android:value="androidx.startup" />
+57-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+58        </provider>
+59
+60        <service
+60-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\ddd0c7d94d5bbb10fc3b78984aa2f090\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+61            android:name="androidx.room.MultiInstanceInvalidationService"
+61-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\ddd0c7d94d5bbb10fc3b78984aa2f090\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+62            android:directBootAware="true"
+62-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\ddd0c7d94d5bbb10fc3b78984aa2f090\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+63            android:exported="false" />
+63-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\ddd0c7d94d5bbb10fc3b78984aa2f090\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+64
+65        <receiver
+65-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+66            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+66-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+67            android:directBootAware="false"
+67-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+68            android:enabled="true"
+68-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+69            android:exported="true"
+69-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+70            android:permission="android.permission.DUMP" >
+70-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+72                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+72-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+72-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+73            </intent-filter>
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+75                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+75-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+75-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f6e8aab75d7e79cb4f746442f348c250\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+76            </intent-filter>
+77        </receiver>
+78    </application>
+79
+80</manifest>
